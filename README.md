@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Preview](/product-preview-card-component-main/images/Desktop%20Final.jpg)
-![Mobile Preview](/product-preview-card-component-main/images/Mobile%20Final.jpg)
+![Desktop Preview](/product-preview-card-component-main/images/Desktop%20Final.png)
+![Mobile Preview](/product-preview-card-component-main/images/Mobile%20Final.png)
 
 ### Links
 
