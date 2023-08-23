@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color:  hsl(30, 38%, 92%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 30px 20px 20px 20px;
+}
+
+.img-container {
+    max-width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.desktop-screen {
+	display: none;
+}
+
+.right-container {
+	height: 23em;
+	background-color:  hsl(0, 0%, 100%);
+	padding: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+}
+
+.head-paragraph {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color:  hsl(228, 12%, 48%);
+	letter-spacing: 5px;
+	font-size: 0.8em;
+	margin-bottom: 0.9em;
+}
+
+.big-paragraph {
+	font-family: 'Fraunces', serif;
+	font-size: 2em;
+	line-height: 1em;
+	margin-bottom: 0.56em;
+}
+
+.small-paragraph {
+	font-family: 'Montserrat', sans-serif;
+	color:  hsl(228, 12%, 48%);
+	margin-bottom: 10px;
+	line-height: 1.45em;
+	font-size: 0.9em;
+	margin-bottom: 1.3em;
+}
+
+.amount {
+	display: flex;
+    align-items: center;
+	font-family: 'Fraunces', serif;
+	color:  hsl(158, 36%, 37%);
+	font-size: 2em;
+	margin-bottom: 0.56em;
+}
+
+.amount span {
+	font-family: 'Montserrat', sans-serif;
+	color:  hsl(228, 12%, 48%);
+	text-decoration-line: line-through;
+	margin-left: 20px;
+	font-size: 0.45em;
+}
+
+.cart {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	background-color:  hsl(158, 36%, 37%);
+	color:  hsl(0, 0%, 100%);
+	width: 100%;
+	height: 3.8em;
+	border: none;
+	border-radius: 8px;
+}
+
+.cart img {
+	color:  hsl(0, 0%, 100%);
+	margin-right: 0.58em;
+}
+
+.cart:hover:focus {
+	background-color:  hsl(158, 66%, 15%);
+	cursor: pointer;
+	border: none;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-screen {
+		display: none;
+	}
+	.desktop-screen {
+		display: block;
+	}
+	.img-container {
+		max-width: 247.33px;
+		height: 368px;
+		border-radius: 10px 0 0 10px;
+	}
+	.right-container {
+		max-width: 247.33px;
+		border-radius: 0 10px 10px 0;
+		padding: 21px;
+		display: flex;
+		flex-direction: column; 
+		justify-content: space-between;
+	}
+	.head-paragraph {
+		font-size: 0.7em;
+	}
+	.big-paragraph {
+		font-size: 1.8em;
+	}
+	.small-paragraph {
+		font-size: 0.79em;
+	}
+	.amount {
+		font-size: 1.8em;
+	}
+	.amount span {
+		font-size: 0.38em;
+	}
+	.cart {
+		height: 3em;
+	}
+}
